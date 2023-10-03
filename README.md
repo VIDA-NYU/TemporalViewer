@@ -1,6 +1,19 @@
 # TemporalViewer
 
-TemporalViewer enables the exploration of temporal distribution of the model outputs in Jupyter Notebooks.
+TemporalViewer enables the exploration of temporal distribution of the model outputs in Jupyter Notebooks. TemporalViewer runs in the core of [ARGUS](https://github.com/VIDA-NYU/ARGUS).
+
+## Paper
+
+1. [ARGUS: Assistive visualization of human-AI collaboration for task guidance in augmented reality ](https://arxiv.org/abs/2308.06246)
+
+## Install
+
+TemporalViewer is available in the format of a Python package, allowing developers to run it within Jupyter notebooks
+
+### Option 1: install via pip:
+~~~~
+pip install model-viewer
+~~~~
 
 ## Demo
 
@@ -29,10 +42,3 @@ session_info = {'reasoningJSONFile': data_steps, 'boundingBoxJSONFile': data_obj
 
 ModelViewer.plot_datasets_summary(session_info)
 ```
-
-## Install
-
-### Option 1: install via pip:
-~~~~
-pip install model-viewer
-~~~~
