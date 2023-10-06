@@ -1,7 +1,7 @@
 const config = {
     entry: ['./js/index.tsx'],
     output: {
-      path: __dirname + '/build',
+      path: __dirname + '../../dist',
       filename: 'temporalViewer.js',
       library: 'temporalViewer'
     },
