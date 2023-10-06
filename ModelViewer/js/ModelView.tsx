@@ -27,7 +27,7 @@ export const ModelView = ({...props}) => {
 
   return (
     <div>
-      Hello Model Viewer 1
+      Hello Model Viewer 3
     
     <Box sx={{ flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <ModelViewDataConsumer
