@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div id="tvdiv"></div>
       {
-        // renderDatasetsSummarizerBundle("tvdiv", {})
+        // renderTemporalViewerBundle("tvdiv", {})
       }
       Hello world
     </div>

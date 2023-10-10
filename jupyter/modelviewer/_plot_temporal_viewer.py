@@ -28,7 +28,7 @@ def make_html(dataset_results, id):
 	    <div id="{id}">
 	    </div>
 	    <script>
-	        temporalViewer.renderDatasetsSummarizerBundle("{id}", {dataset_results});
+	        temporalViewer.renderTemporalViewerBundle("{id}", {dataset_results});
 	    </script>
 	</body>
 	</html>

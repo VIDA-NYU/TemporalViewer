@@ -1,4 +1,4 @@
-import { renderDatasetsSummarizerBundle } from '../ModelViewer/js/index';
+import { renderTemporalViewerBundle } from '../ModelViewer/js/index';
 
 
 const main = async () => {
@@ -19,8 +19,8 @@ const main = async () => {
 
     // Testing...
     const mainDiv: HTMLDivElement = <HTMLDivElement>document.getElementById('main-div');
-    const egoCloud = new renderDatasetsSummarizerBundle( "main-div", {} , {});
-    // renderDatasetsSummarizerBundle( "main-div", {} );
+    const egoCloud = new renderTemporalViewerBundle( "main-div", {} , {});
+    // renderTemporalViewerBundle( "main-div", {} );
 
 
 }
