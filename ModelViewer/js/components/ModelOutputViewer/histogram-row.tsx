@@ -1,5 +1,5 @@
 import {interpolateBuPu, interpolateGreys} from "d3-scale-chromatic";
-import {Tooltip} from "react-svg-tooltip";
+// import {Tooltip} from "react-svg-tooltip";
 import {useEffect, useRef, useState} from "react";
 import * as d3 from "d3";
 import { timestampRanges } from "../utils/utils";
@@ -201,10 +201,10 @@ export default function HistogramRow({transform, detectedItems, cellSize, chartW
                     ref={rowTooltipRef}
                 ></rect>
 
-                <Tooltip triggerRef={rowTooltipRef}>
+                {/* <Tooltip triggerRef={rowTooltipRef}>
                     <rect x={2} y={2} width={420} height={30} rx={.5} ry={.5} fill='#e3e3e3'/>
                     <text x={10} y={25} fontSize={20} fill='black'> {timedData.label} </text>
-                </Tooltip>
+                </Tooltip> */}
 
             </g>
         </g>
