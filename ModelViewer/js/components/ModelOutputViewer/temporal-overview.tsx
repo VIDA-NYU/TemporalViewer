@@ -2,8 +2,6 @@ import {styled} from "@mui/material";
 import {useEffect, useRef} from "react";
 import d3, {scaleLinear, scaleBand, axisBottom, select, timeFormat, timeMinute, tickFormat, range} from "d3";
 import {extractAllStepLabels, extractIndividualActionData, extractIndividualBoundingBoxData, extractIndividualReasoningData, preprocessTimestampData} from "./preprocess";
-import {schemeGnBu, interpolateTurbo, interpolateBuPu} from "d3-scale-chromatic";
-import {Tooltip} from "react-svg-tooltip"
 import Card from "@mui/material/Card";
 import HistogramRow from "./histogram-row";
 import Legend from "./legend";
