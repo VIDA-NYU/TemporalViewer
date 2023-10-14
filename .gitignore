@@ -1,6 +1,7 @@
 # Python
 .ipynb_checkpoints
 Demo-temporal-viewer.ipynb
+Local_Demo.ipynb
 
 # Packages
 *.egg
